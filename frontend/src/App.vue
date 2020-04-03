@@ -3,6 +3,10 @@
         <Topbar></Topbar>
         <h1 class="title">{{$t('message')}}</h1>
         <!-- <Popup v-if="languageSet"></Popup> -->
+        <div style="position:relative; width:100%; height:100%;">
+                    <img class="main__image" src="./assets/Los-test.svg"/>
+
+        </div>
     </div>
 </template>
 
@@ -35,6 +39,25 @@ export default {
 */
 .main--wrapper {
     position: relative;
+}
+.main__image{
+        position: absolute;
+    width: 50%;
+    /* top: -49%; */
+    bottom: -826px;
+    left: 22%;
+    animation: slidein 4s ease-out 2s infinite;
+}
+@keyframes slidein {
+  0% {
+     bottom: -826px;
+  }
+50%{
+    bottom:-880px;
+}
+  to {
+     bottom: -826px;
+  }
 }
 :root {
     --primaryColorLight: #4a5a7d;
