@@ -50,13 +50,13 @@ export default {
 }
 @keyframes slidein {
   0% {
-     bottom: -826px;
+    top: 50%;
   }
 50%{
-    bottom:-880px;
+    top: 55%;
 }
   to {
-     bottom: -826px;
+    top: 50%;
   }
 }
 :root {
