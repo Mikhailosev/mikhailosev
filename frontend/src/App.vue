@@ -3,7 +3,7 @@
         <Topbar></Topbar>
         <h1 class="title">{{$t('message')}}</h1>
         <!-- <Popup v-if="languageSet"></Popup> -->
-        <div style="position:relative; width:100%; height:100%;">
+        <div style="position:relative; width:100vw; height:80vh;">
                     <img class="main__image" src="./assets/Los-test.svg"/>
 
         </div>
@@ -43,9 +43,9 @@ export default {
 .main__image{
         position: absolute;
     width: 50%;
-    /* top: -49%; */
-    bottom: -826px;
-    left: 22%;
+     left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
     animation: slidein 4s ease-out 2s infinite;
 }
 @keyframes slidein {
