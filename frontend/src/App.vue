@@ -41,11 +41,13 @@ export default {
     position: relative;
 }
 .main__image{
+    outline:0 solid transparent;
+    background-position:center;
         position: absolute;
     width: 50%;
      left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%) rotate(20deg);
     animation: slidein 4s ease-out 2s infinite;
 }
 @keyframes slidein {
@@ -53,7 +55,7 @@ export default {
     top: 50%;
   }
 50%{
-    top: 55%;
+    top: 56%;
 }
   to {
     top: 50%;
