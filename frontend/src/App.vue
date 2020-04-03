@@ -47,7 +47,7 @@ export default {
     width: 50%;
      left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%) rotate(20deg);
+    transform: translate(-50%,-50%) rotate(6deg);
     animation: slidein 4s ease-out 2s infinite;
 }
 @keyframes slidein {
