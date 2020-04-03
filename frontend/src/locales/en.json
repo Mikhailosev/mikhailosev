@@ -1,3 +1,8 @@
 {
-  "message": "hello i18n !!"
+  "message": "hello i18n !!",
+  "Обо мне":"About me",
+  "Портфолио":"Portfolio",
+  "Курсы":"Courses",
+  "Блог":"Blog",
+  "Войти":"Log In"
 }
